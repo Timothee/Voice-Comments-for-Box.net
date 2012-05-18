@@ -1,0 +1,134 @@
+#masthead, #footer {
+  background-color: #049cd9;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#004D9F), to(#049cd9));
+  background-image: -webkit-linear-gradient(#004D9F, #049cd9);
+  background-image: -moz-linear-gradient(#004D9F, #049cd9);
+  background-image: -o-linear-gradient(top, #004D9F, #049cd9);
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#004D9F), to(#049cd9));
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#004D9F', EndColorStr='#049cd9', GradientType=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#004D9F', EndColorStr='#049cd9', GradientType=0))";
+}
+#masthead div.inner, #footer div.inner {
+  background: transparent url("./img/bubblegrid.png") top center;
+  padding: 45px 0;
+  -webkit-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+#masthead h1,
+#footer h1,
+#masthead p,
+#footer p {
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+#masthead p a,
+#footer p a {
+  color: #fff;
+  font-weight: bold;
+}
+#masthead {
+}
+#masthead h1,
+#masthead p {
+  text-align: center;
+  margin-bottom: 9px;
+}
+#masthead h1 {
+  font-size: 54px;
+  line-height: 1;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+#masthead p {
+  font-weight: 300;
+}
+#masthead p.lead {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+#pageurl {
+  height: 27px;
+  width: 450px;
+}
+
+body.collaborate {
+  background-color: #004D7F;
+  padding-top: 20px;
+}
+body.collaborate .topbar {
+  overflow: hidden;
+}
+body.collaborate .topbar label {
+  width: 200px;
+  color: #ccc;
+  text-align: left;
+}
+
+.content.filecontent {
+  margin-top: 20px;
+	-moz-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.6);
+	position: relative;
+}
+
+div.container-fluid div.sidebar {
+  float: right;
+  width: 220px;
+  color: #aaa;
+}
+div.container-fluid div.content {
+  width: 640px;
+  margin-right: 240px;
+  margin-left: 60px;
+}
+
+.record.btn {
+  background-color:#ba2330;
+  background-repeat:repeat-x;
+  background-image:-khtml-gradient(linear, left top, left bottom, from(#911d27), to(#ba2330));
+  background-image:-moz-linear-gradient(#911d27, #ba2330);
+  background-image:-ms-linear-gradient(#911d27, #ba2330);
+  background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #911d27), color-stop(100%, #ba2330));
+  background-image:-webkit-linear-gradient(#911d27, #ba2330);
+  background-image:-o-linear-gradient(#911d27, #ba2330);
+  -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#911d27', endColorstr='#ba2330', GradientType=0)";
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#911d27', endColorstr='#ba2330', GradientType=0);
+  background-image:linear-gradient(#911d27, #ba2330);
+  color:#fff;
+  text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.record.btn:hover {
+  color:#fff;
+}
+
+/* Recording toolbar */
+#floatingRecord {
+  z-index: 20;
+  position: absolute;
+  top: 150px;
+  left: 800px;
+}
+
+#floatingRecord span {
+/*  position: absolute;
+  right: -100px;
+*/}
+
+.highlight {
+  background-color: rgb(254, 244, 122);
+}
+.recording {
+  float: right;
+  position: relative;
+  top: -80px;
+  right: -100px;
+  padding-top: 80px;
+}
+
+.recording audio {
+  width: 66px;
+}
