@@ -36,3 +36,6 @@ As usual, this is licensed under the MIT license, because really, do whatever yo
 Cheers,
 
 Tim
+
+
+PS: this repo doesn't have any commit history because I had some API keys in the code in there. It was just easier to clean everything and start from a clean history.
